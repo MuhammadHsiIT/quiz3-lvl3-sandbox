@@ -75,11 +75,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Quiz3App() {
-    Scaffold(bottomBar = { Quiz3BottomAppBar()}, modifier = Modifier.padding(bottom = 40.dp)) { it ->
+    Scaffold(bottomBar = { Quiz3BottomAppBar()}, modifier = Modifier.padding(bottom = 50.dp)) { it ->
         Column(
 
             horizontalAlignment = Alignment.CenterHorizontally) {
-            Column(modifier = Modifier.padding(start = 10.dp, end = 10.dp, bottom = 10.dp, top = 30.dp)) {
+            Column(modifier = Modifier.padding(start = 10.dp, end = 10.dp, bottom = 10.dp, top = 50.dp)) {
                 Row() {
                     Text(
                         text = stringResource(R.string.title),
